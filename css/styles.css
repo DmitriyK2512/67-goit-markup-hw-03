@@ -25,6 +25,20 @@ body {
 }
 
 /* ///   сброс стилей   /// */
+h1,
+h2,
+h3,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+ol,
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 
 .link{
     text-decoration: none;
@@ -37,6 +51,9 @@ img{
 }
 .button {
     cursor: pointer;
+}
+address{
+    font-style: normal;
 }
 /* //////////////////////////////////////////// */
 /*    ///   скрываем заголовок   ///    */
@@ -102,6 +119,8 @@ img{
     letter-spacing: 0.02em;
 }
 /* //////////////////////////////////////////// */
+
+
 
 
 /*    ///   hero   ///    */
